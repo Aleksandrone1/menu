@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Меню</string>
+    <string name="save">-1</string>
+    <string name="open">0</string>
+    <string name="option">Настройки</string>
+    <string name="one">1</string>
+    <string name="too">2</string>
+    <string name="free">3</string>
+    <string name="fore">4</string>
+    <string name="five">5</string>
+    <string name="p">item</string>
+</resources>

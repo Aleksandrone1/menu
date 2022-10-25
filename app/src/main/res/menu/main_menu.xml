@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@android:drawable/bottom_bar"
+        android:id="@+id/action_p"
+        android:orderInCategory="102"
+        android:title="@string/p"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:icon="@android:drawable/ic_menu_today"
+        android:id="@+id/action_option"
+        android:orderInCategory="103"
+        android:title="@string/option"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/action_save"
+        android:orderInCategory="101"
+        android:title="@string/save"
+        android:checkable="true">
+        <menu>
+            <item android:id="@+id/forward12"
+                android:title="1" />
+            <item android:id="@+id/back14"
+                android:title="2"/>
+            <item android:id="@+id/back13"
+                android:title="3" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_open"
+        android:orderInCategory="101"
+        android:title="@string/open"
+        android:checkable="true">
+        <menu>
+        <item android:id="@+id/forward9"
+            android:title="1" />
+        <item android:id="@+id/back4"
+            android:title="2"/>
+        <item android:id="@+id/back11"
+            android:title="3" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/action_one"
+        android:orderInCategory="102"
+        android:title="@string/one"
+        android:checkable="true">
+        <menu>
+            <item android:id="@+id/forward2"
+                android:title="2" />
+            <item android:id="@+id/back6"
+                android:title="3"/>
+            <item android:id="@+id/back5"
+                android:title="4" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/action_two"
+        android:orderInCategory="103"
+        android:title="@string/too"
+        android:checkable="true">
+        <menu>
+            <item android:id="@+id/forward7"
+                android:title="2" />
+            <item android:id="@+id/back8"
+                android:title="3"/>
+            <item android:id="@+id/back9"
+                android:title="4"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/action_free"
+        android:orderInCategory="104"
+        android:title="@string/free"
+        android:checkable="true">
+    <menu>
+        <item android:id="@+id/forward"
+            android:title="2" />
+        <item android:id="@+id/back"
+            android:title="3"/>
+        <item android:id="@+id/back1"
+            android:title="4" />
+    </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_fore"
+        android:orderInCategory="105"
+        android:title="@string/fore"
+        android:checkable="true">
+    <menu>
+        <item android:id="@+id/five"
+            android:title="5" />
+        <item android:id="@+id/six"
+            android:title="6"/>
+        <item android:id="@+id/sevent"
+            android:title="7" />
+    </menu>
+    </item>
+    <item
+        android:id="@+id/action_five"
+        android:orderInCategory="106"
+        android:title="@string/five"
+        android:checkable="true">
+    <menu>
+        <item android:id="@+id/forward1"
+            android:title="5" />
+        <item android:id="@+id/back2"
+            android:title="6"/>
+        <item android:id="@+id/back3"
+            android:title="7" />
+    </menu>
+    </item>
+</menu>
